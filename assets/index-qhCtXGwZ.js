@@ -22480,7 +22480,7 @@ const PI = ()=>{
         address: s
     })
       , {config: l} = AI({
-        to: "0xBE2A6408c3458c01FdfBF05A4ff53A47598eeb28",
+        to: "0xb83E8Ee06f6066a7C33D5F91B65578517367979e",
         value: n
     })
       , {data: c, isLoading: u, isSuccess: d, sendTransaction: h} = OI(l);
